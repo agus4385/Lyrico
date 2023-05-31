@@ -1,0 +1,35 @@
+/* header{
+    background-color: rgb(71, 100, 100);
+    width: 30vh;
+    height: 86vh;
+   /*  border: 1px solid #ffffff; */
+    /* display: flex;
+    flex-wrap: wrap;
+}  */
+.sidebar{
+    background-color: rgb(18, 10, 23);
+    height: 80vh;
+    width: 35vh;
+    
+}
+
+.sidebar ul {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+  
+.sidebar li a {
+text-decoration: none;
+display: block;
+font-size: 14px;
+padding-bottom: 30px;
+font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+transition: .3s linear;
+color: rgb(241, 136, 61);
+}  
+.sidebar li a:hover {
+    color: rgb(5, 99, 181);
+} 

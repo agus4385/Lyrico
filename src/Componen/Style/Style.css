@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+/* Sidebar Kanan */
+header{
+    background-color: rgb(71, 100, 100);
+    width: 15%;
+    height: 82.3vh;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+header .menu{
+    width: 30vh;
+    height: 100%;
+    background: #111727;
+    color: aqua;
+    border: 1px solid #fff;
+    
+}
+header .menu .playlist{
+    margin: 1rem;
+}
+
+header .menu .playlist ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+header .menu .playlist li a {
+display: block;
+font-size: 14px;
+padding-bottom: 30px;
+text-decoration: none;
+cursor: pointer;
+transition: .3s linear;
+color: aquamarine;
+}  
+header .menu .playlist li a:hover {
+    color: aliceblue;
+}  
+/* Side Kiri */
+/* header .side{
+    width: 54vh;
+    height: 100%;
+    margin-left: 134.1vh;
+    background: #0a0f1b;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    
+}
+header .side .img_side h1{
+    font-size: 20px;
+    color: #949497;
+    text-align: center;
+    margin: 0.1rem;
+    padding: 0.2rem 0rem 1rem;
+}
+header .side .img_side .bacground{
+    margin: 1rem;
+    border-radius: 10px;
+    height: 170px;
+    border: 1px solid #949497;
+} */
+/* Music */
+/* header .side .img_side .menu_music{
+    width: 89%;
+    height: 48vh;
+    border: 1px solid #888888ad;
+    margin: -1.3rem 1rem;
+    border-radius: 5px;
+    padding: 1px;
+    
+}
+header .side .img_side .menu_music li{
+    list-style-type: none;
+    padding: 5px 10px 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: .2s linear;
+}
+header .side .img_side .menu_music li:hover{
+    background: rgb(105, 105, 170, .1);
+}
+header .side .img_side .menu_music li img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+header .side .img_side .menu_music li a{
+    font-size: 15px;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+header .side .img_side .menu_music li .subtitle{
+    font-size: 13px;
+    color: #bfc0c2;
+} */
+
+/* MiD */
+/* header .mid{
+    width: 20vh;
+    height: 100%;
+    margin-left: 134.1vh;
+    background: #111727;
+    color: aqua;
+    border: 1px solid #fff;
+    
+}
+header .mid .mid2{
+    margin: 1rem;
+}
+
+header .side .mid2 ul {
+    list-style-type: none;
+    padding: 0;
+} */
+
+/* Navbar */
+
