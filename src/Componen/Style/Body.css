@@ -7,34 +7,7 @@
 }
 
 /* Nav Body */
-.body .nav-body{
-  background-color: rgb(31, 23, 46, 0.8);
-  height: 6vh;
-  width: auto;
-  border-radius: 8px;
-  margin-top: -0.5rem;
-} 
-.body .nav-body .src{
-  margin-left: 12%;
-  border-radius: 7px;
-  background-color: rgb(31, 23, 46, 0.8);
-  height: 4.5vh;
-  margin-top: -0.2rem;
-  width: 60%;
-  border: none;
-  color: #fff;
-  outline: none;
-}
-.body .nav-body  ul{
-  display: flex;
-  padding: 0.5rem 1rem;
-  
-}
-.body .nav-body  ul li{
-  display: flex;
-  margin-left: 1rem;
-  color: #fff;
-}
+
 
 /* Body */
 

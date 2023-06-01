@@ -5,17 +5,7 @@ import "./Style/Body.css"
 function Body() {
   return (
     <div className="body" >
-      <div className="nav-body">
-        <ul>
-          <li>Daily</li>
-          <li>Daily</li>
-          <li>Daily</li>
-          <li>Daily</li>
-        <input className="src" type="search" />
-
-        </ul>
-        
-      </div>
+  
       
       {/* Baris 1 */}
          <div className="home">

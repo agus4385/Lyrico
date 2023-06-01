@@ -2,7 +2,16 @@ import "./Style/Nav.css"
 function Nav() {
   return (
       <div className="nav">
-        <ul><a href="#">Playlist</a></ul>
+        
+         <div className="nav-body">
+        <ul>
+          <li>Daily</li>
+          <li>Daily</li>
+          <li>Daily</li>
+          <li>Daily</li>
+        <input className="src" type="search" />
+        </ul>
+      </div>
       </div>
   )
 }
