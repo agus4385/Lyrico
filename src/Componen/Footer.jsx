@@ -9,13 +9,20 @@ function Footer() {
       <div className="fot-artis">
         <ul>
           <li><a>Singe Me To Sleep</a></li>
-          <li>Singe Me To Sleep</li>
+          <li>Alan Walker</li>
         </ul>
         <div className="fot-logo">
           
         </div>
+      
      </div>
-    </div>
+     <span id="currentStart">0:00</span>
+        <div className="bar">
+           <input type="range" id="seek" min={"100"} value={"0"} max={"100"} />
+            <div className="bar2" id="bar2"></div>
+            <div className="dot"></div>
+          </div>
+    </div> 
   )
   
 }

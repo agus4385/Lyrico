@@ -8,7 +8,7 @@ function SideKiri() {
     <div className="menu">
       <div className="list">
       <img className="background" src={Bgr} alt="" />
-      <h1>Top 5 Music Jokowi AI</h1>
+      <h1>Daily</h1>
         <div className="menu_music">
            
           <li className="item">

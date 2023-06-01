@@ -6,9 +6,9 @@ function Nav() {
          <div className="nav-body">
         <ul>
           <li>Daily</li>
-          <li>Daily</li>
-          <li>Daily</li>
-          <li>Daily</li>
+          <li>Pop</li>
+          <li>Barat</li>
+          <li>India</li>
         <input className="src" type="search" />
         </ul>
       </div>
