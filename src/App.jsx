@@ -9,9 +9,8 @@ function App() {
   return (
    <Router>
     <Routes>
-      <Route path="/daily" Object={Daily}/>
-      
-      {/*<Route path="/daily" element={<Daily/>}/> */}
+      <Route path="/" element={<Home/>}/>
+      {/* <Route path="/daily" element={<Daily/>}/> */}
     </Routes>
    </Router>
   )
