@@ -1,18 +1,18 @@
 import "./Style/Nav.css"
+import {Link} from "react-router-dom"
+
 function Nav() {
   return (
-      <div className="nav">
-        
-         <div className="nav-body">
+      <div className="nav-body">
         <ul>
-          <li>Daily</li>
-          <li>Pop</li>
-          <li>Barat</li>
-          <li>India</li>
+          <li><a href="" id=""><Link to="/daily">Daily</Link></a></li>
+          <li><a href="">Daily</a></li>
+          <li><a href="">Daily</a></li>
+          <li><a href="">Daily</a></li>
         <input className="src" type="search" />
         </ul>
       </div>
-      </div>
+  
   )
 }
 

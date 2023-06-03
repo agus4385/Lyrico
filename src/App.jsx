@@ -1,22 +1,19 @@
 import "./App.css"
-import Sidebar from './Componen/Sidebar'
-import Nav from './Componen/Nav'
-import Body from './Componen/Body' 
-import SideKiri from './Componen/SideKiri'
-import Footer from './Componen/Footer'
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Home from "./Componen/Home"
+
+/* Object */
+/* import Daily from "./assets/Object/Daily" */
+
 function App() {
   return (
-    <> 
-     <div className="container">
-        <Nav/>
-        <div className="main-container">
-          <Sidebar/>
-          <Body/>
-          <SideKiri/>
-        </div>
-        <Footer/>
-     </div>
-    </>
+   <Router>
+    <Routes>
+      <Route path="/daily" Object={Daily}/>
+      
+      {/*<Route path="/daily" element={<Daily/>}/> */}
+    </Routes>
+   </Router>
   )
 }
 
