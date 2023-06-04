@@ -10,9 +10,8 @@ function Sidebar() {
         <div className="sidebar">
                 <ul>
                     <li><Link to="/">Dashboard</Link></li>
-                    <li><Link to="">Dashboard</Link></li>
-                    <li><Link to="">Dashboard</Link></li>
-                    <li><Link to="">Dashboard</Link></li>
+                    <li><Link to="/like">Like</Link></li>
+                    <li><Link to="/history">History</Link></li>
                 </ul>
         </div>
         

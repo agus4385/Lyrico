@@ -5,6 +5,12 @@ import Home from "./Componen/Home"
 
 /* Object */
 import Daily from "./assets/Object/Daily" 
+import Like from "./Componen/Like"
+import History from "./Componen/History"
+import Artis from "./assets/Object/Artis"
+import Album from "./assets/Object/Album"
+import Playlist from "./assets/Object/Playlist"
+
 
 function App() {
   // const artis = getArtist("0TnOYISbd1XYRBk9myaseg")
@@ -13,6 +19,11 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/daily" element={<Daily/>}/>
+      <Route path="/like" element={<Like/>}/>
+      <Route path="/history" element={<History/>}/>
+      <Route path="/artis" element={<Artis/>}/>
+      <Route path="/album" element={<Album/>}/>
+      <Route path="/playlist" element={<Playlist/>}/>
     </Routes>
    </Router>
   )

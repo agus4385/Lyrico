@@ -10,15 +10,13 @@ function Daily() {
     <div className="daily">
        <div className="home-daily">
        <Sidebar/>
-       <div className="judul-daily">
+        <div className="judul-daily">
 
-       <img className="day-gambar" src={Foto1} alt="" />
-        <h1>Top 10 music harian untuk kamu</h1>
-       </div>
+        <img className="day-gambar" src={Foto1} alt="" />
+          <h1>Top 10 music harian untuk kamu</h1>
+        </div>
        <div className="daily-menu">
-        
            <li className="day-artis">
-               <h2>1</h2>
                <img className="day-foto" src={Foto} alt="#"/>
                <a href="">
                  Jokowi cover AI
@@ -26,7 +24,7 @@ function Daily() {
            </a>               
          </li>
          <li className="day-artis">
-               <h2>1</h2>
+              
                <img className="day-foto" src={Foto} alt="#"/>
                <a href="">
                  Jokowi cover AI
@@ -34,7 +32,7 @@ function Daily() {
            </a>               
          </li>
          <li className="day-artis">
-               <h2>1</h2>
+           
                <img className="day-foto" src={Foto} alt="#"/>
                <a href="">
                  Jokowi cover AI
@@ -42,13 +40,14 @@ function Daily() {
            </a>               
          </li>
          <li className="day-artis">
-               <h2>1</h2>
+             
                <img className="day-foto" src={Foto} alt="#"/>
                <a href="">
                  Jokowi cover AI
              <div className="nama-artis">Unknown</div>
            </a>               
          </li>
+
        </div>
          
        </div>
