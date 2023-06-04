@@ -13,6 +13,7 @@ function Daily() {
         <div className="judul-daily">
 
         <img className="day-gambar" src={Foto1} alt="" />
+          {/* Baris 1 */}
           <div className="daily-menu">
               <li className="day-artis">
                   <img className="day-foto" src={Foto} alt="#"/>
