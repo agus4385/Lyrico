@@ -13,42 +13,101 @@ function Daily() {
         <div className="judul-daily">
 
         <img className="day-gambar" src={Foto1} alt="" />
-          <h1>Top 10 music harian untuk kamu</h1>
+          <div className="daily-menu">
+              <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+            <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+            <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+            <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+          </div>
+        {/* Baris 2 */}
+          <div className="daily-menu2">
+              <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+            <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+            <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+            <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+          </div>
+           {/* Baris 3 */}
+           <div className="daily-menu3">
+              <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+            <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+            <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+            <li className="day-artis">
+                  <img className="day-foto" src={Foto} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                <div className="nama-artis">Unknown</div>
+              </a>               
+            </li>
+          </div>
+          
+          
         </div>
-       <div className="daily-menu">
-           <li className="day-artis">
-               <img className="day-foto" src={Foto} alt="#"/>
-               <a href="">
-                 Jokowi cover AI
-             <div className="nama-artis">Unknown</div>
-           </a>               
-         </li>
-         <li className="day-artis">
-              
-               <img className="day-foto" src={Foto} alt="#"/>
-               <a href="">
-                 Jokowi cover AI
-             <div className="nama-artis">Unknown</div>
-           </a>               
-         </li>
-         <li className="day-artis">
-           
-               <img className="day-foto" src={Foto} alt="#"/>
-               <a href="">
-                 Jokowi cover AI
-             <div className="nama-artis">Unknown</div>
-           </a>               
-         </li>
-         <li className="day-artis">
-             
-               <img className="day-foto" src={Foto} alt="#"/>
-               <a href="">
-                 Jokowi cover AI
-             <div className="nama-artis">Unknown</div>
-           </a>               
-         </li>
-
-       </div>
          
        </div>
       <Footer/>
