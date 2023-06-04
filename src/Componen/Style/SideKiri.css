@@ -35,22 +35,21 @@ color: #fff;
     font-size: 11px;
     margin-top: 1px;
 } 
-.menu .list .menu_music{
-    width: 100%;
-    height: 45vh;
-    margin-top: -4px;
-    border-radius: 10px;
-}
-.menu .list .menu_music :hover{
-    background-color: rgb(20, 21, 21);
-    border-radius: 10px;
-}
 .menu .list h1{
     font-size: 20px;
     text-align: center;
     color: #fff;
     margin-top: -1.5px;
 }
+.menu .list .menu_music{
+    width: 100%;
+    border-radius: 10px;
+}
+.menu .list .menu_music :hover{
+    background-color: rgb(20, 21, 21);
+    border-radius: 10px;
+}
+
 .menu .list .menu_music h2{
     font-size: 15px;
     margin: 0.5rem;

@@ -14,13 +14,13 @@
 }
 
 .sidebar ul {
-    list-style-type: none;
+    margin: 2rem;
     text-decoration: none;
-    padding: 0.5rem;
-    margin: 1rem;
+    margin-top: 3rem;
 }
   
-.sidebar li a {
+.sidebar li  {
+    width: 20vh;
 text-decoration: none;
 display: block;
 font-size: 14px;
@@ -28,8 +28,11 @@ padding-bottom: 30px;
 font-family: Arial, Helvetica, sans-serif;
 cursor: pointer;
 transition: .3s linear;
-color: rgb(241, 136, 61);
 }  
+.sidebar li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 .sidebar li a:hover {
     color: rgb(5, 99, 181);
 } 

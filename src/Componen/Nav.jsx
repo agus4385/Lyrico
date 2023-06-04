@@ -5,7 +5,7 @@ function Nav() {
   return (
       <div className="nav-body">
         <ul>
-          <li><a href="" id=""><Link to="/daily">Daily</Link></a></li>
+          <li><Link to="/daily">Daily</Link></li>
           <li><a href="">Daily</a></li>
           <li><a href="">Daily</a></li>
           <li><a href="">Daily</a></li>

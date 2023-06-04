@@ -1,4 +1,5 @@
 import "./Style/SideKiri.css"
+
 import Bgr from "../assets/backgrn/back.jpg"
 import Img from "../assets/img/blackpink.jpg"
 

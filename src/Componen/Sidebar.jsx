@@ -1,4 +1,6 @@
 import "./Style/Sidebar.css"
+import {Link} from "react-router-dom"
+
 
 /* import Bgr from "../assets/backgrn/wallpaperflare.com_wallpaper (2).jpg"
 import Img from "../assets/img/twice.jpg" */
@@ -7,31 +9,10 @@ function Sidebar() {
   return (
         <div className="sidebar">
                 <ul>
-                    <li>
-                    <a href="#">
-                    Dasboard
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                    Untuk Kamu
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                    Album
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                    Artis
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Riwayat
-                    </a>
-                </li>
+                    <li><Link to="/">Dashboard</Link></li>
+                    <li><Link to="">Dashboard</Link></li>
+                    <li><Link to="">Dashboard</Link></li>
+                    <li><Link to="">Dashboard</Link></li>
                 </ul>
         </div>
         
