@@ -16,35 +16,35 @@ function Daily() {
           <h1>Hallo</h1>
           </div>
           <div className="daily-music">
-              <li>
+              <li className="li">
                   <img className="daily-play" src={Foto1} alt="#"/>
                   <a href="">
                     Jokowi cover AI
                     <div className="daily-artis">Unknown</div>
                   </a>               
              </li>
-             <li>
+             <li className="li">
                   <img className="daily-play" src={Foto1} alt="#"/>
                   <a href="">
                     Jokowi cover AI
                     <div className="daily-artis">Unknown</div>
                   </a>               
              </li>
-              <li>
+              <li className="li">
                   <img className="daily-play" src={Foto1} alt="#"/>
                   <a href="">
                     Jokowi cover AI
                     <div className="daily-artis">Unknown</div>
                   </a>               
              </li>
-             <li>
+             <li className="li">
                   <img className="daily-play" src={Foto1} alt="#"/>
                   <a href="">
                     Jokowi cover AI
                     <div className="daily-artis">Unknown</div>
                   </a>               
              </li>
-             <li>
+             <li className="li">
                   <img className="daily-play" src={Foto1} alt="#"/>
                   <a href="">
                     Jokowi cover AI
