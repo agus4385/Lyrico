@@ -44,7 +44,13 @@ function Daily() {
                     <div className="daily-artis">Unknown</div>
                   </a>               
              </li>
-             
+             <li>
+                  <img className="daily-play" src={Foto1} alt="#"/>
+                  <a href="">
+                    Jokowi cover AI
+                    <div className="daily-artis">Unknown</div>
+                  </a>               
+             </li>
           </div>
         </div>
       </div>
