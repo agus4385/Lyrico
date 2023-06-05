@@ -43,6 +43,7 @@ color: #fff;
 }
 .menu .list .menu_music{
     width: 100%;
+    
     border-radius: 10px;
 }
 .menu .list .menu_music :hover{
