@@ -23,6 +23,7 @@ function App() {
       <Route path="/history" element={<History/>}/>
       <Route path="/artis" element={<Artis/>}/>
       <Route path="/playlist" element={<Playlist/>}/>
+      <Route path="/top_music" element={<Playlist/>}/>
     </Routes>
    </Router>
   )

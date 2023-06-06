@@ -2,7 +2,8 @@
     display: flex;
     height: 87vh;
     width: 100%;
-    background: linear-gradient(#301c8821,#0000ba);
+    background: url(../../backgrn/back.jpg);
+    /* background: linear-gradient(#301c8821,#0000ba); */
 }
 .playlist .playlist-home .playlist-scrol {
     padding: 1rem;
@@ -25,7 +26,8 @@
 }
 .playlist .playlist-home .playlist-body {
     margin: 1rem;
-    background-color: aqua;
+    border: 5px solid #281f5d;
+    background-color: rgb(12, 14, 39);
     border-radius: 10px;
     height: 13.5rem;
     width: 11.4rem;
@@ -36,7 +38,7 @@
 
 .playlist .playlist-home .playlist-body .playlist-putar{
     text-align: center;
-    background-color: azure;
+    background-color: rgba(62, 64, 83, 0.5);
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 2px;
     margin-left: 1rem;
@@ -45,4 +47,9 @@
 }
 .playlist .playlist-home .playlist-body .playlist-putar a{
     text-decoration: none;
+    color: aliceblue;
+}
+.playlist .playlist-home .playlist-body .playlist-putar p{
+    color: rgb(188, 188, 192);
+    font-style: oblique;
 }
