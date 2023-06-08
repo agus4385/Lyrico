@@ -5,10 +5,12 @@
     background-color: #071727;
 }
 
-.artist .judul-artist h1{
+.artist .home-artist .judul-artist h1{
     height: 50px;
-    background-color: #071727;
+    background-color: #4c4e56c8;
     color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .artist .home-artist .artist-scroll{

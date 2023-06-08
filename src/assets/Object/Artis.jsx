@@ -23,9 +23,9 @@ function Artis() {
 
         <div className="home-artist">
         <Sidebar/>
-        {/*<div className="judul-artist">
+        <div className="judul-artist">
           <h1>Artist</h1>
-          </div> */}
+          
 
         <div className="artist-scroll">
 
@@ -127,6 +127,7 @@ function Artis() {
 
         </div>
     </div>
+    </div> 
     <Footer/>
 </div>
   )
