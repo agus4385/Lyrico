@@ -1,9 +1,0 @@
-// import "Login.css"
-
-export const Login = () => {
-    return (
-      <div className="login">
-        <h1>test</h1>
-      </div>
-    )
-  }
