@@ -2,7 +2,9 @@ import Sidebar from "./Sidebar"
 
 function Top_Music() {
   return (
-    <div><Sidebar/></div>
+    <div><Sidebar/>
+    <h1>Hai sayang</h1>
+    </div>
   )
 }
 

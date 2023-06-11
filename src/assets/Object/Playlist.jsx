@@ -3,6 +3,7 @@ import Sidebar from "../../Componen/Sidebar"
 import Footer from "../../Componen/Footer"
 import Fot from "../img/gambar1.jpg"
 import { Link } from "react-router-dom"
+// import Top_Music from "../../Componen/Top_Music"
 
 function Playlist() {
   return (
@@ -15,7 +16,7 @@ function Playlist() {
                 <img className="playlist-img" src={Fot} alt="" />
                 <div className="playlist-putar">
 
-                <h4><Link to="/top_music">Today Top Hits</Link> </h4> 
+                <Link to="/top_music">Top Music</Link> 
 
                 <p>Yoashobi</p>
               </div>
