@@ -1,5 +1,6 @@
 import "./Style/Nav.css"
 import {Link} from "react-router-dom"
+import React from "react";
 
 function Nav() {
   return (
@@ -8,11 +9,15 @@ function Nav() {
           <li><Link to="/daily">Daily</Link></li>
           <li><Link to="/artis">Artis</Link></li>
           <li><Link to="/playlist">Playlist</Link></li>
-        <input className="src" type="search" />
+
+          <input className="src" type="search" placeholder="ketik untuk memulai" 
+          onfocus="clearSearchText()" onblur="restoreSearchText()" />
         </ul>
       </div>
-  
+
   )
+
+  
 }
 
 export default Nav
