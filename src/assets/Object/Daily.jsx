@@ -16,7 +16,7 @@ function Daily() {
           <h1>Hallo</h1>
           </div>
           <div className="daily-music">
-              <li className="li">
+              <li id="11dFghVXANMlKmJXsNCbNl" className="li">
                   <img className="daily-play" src={Foto1} alt="#"/>
                   <a href="">
                     Jokowi cover AI

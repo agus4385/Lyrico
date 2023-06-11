@@ -1,14 +1,7 @@
-/* header{
-    background-color: rgb(71, 100, 100);
-    width: 30vh;
-    height: 86vh;
-   /*  border: 1px solid #ffffff; */
-    /* display: flex;
-    flex-wrap: wrap;
-}  */
+
 .sidebar{
     background-color: rgb(18, 10, 23);
-    height: 87vh;
+    height: 86.5vh;
 
 }
 
@@ -16,6 +9,9 @@
     margin: 2rem;
     text-decoration: none;
     margin-top: 3rem;
+}
+.sidebar .icn{
+    margin-left: 0px;
 }
   
 .sidebar li  {
@@ -30,7 +26,6 @@ transition: .3s linear;
 }  
 .sidebar li a{
     text-decoration: none;
-    padding: 1rem;
     font-size: larger;
     color: rgb(175, 159, 200);
 }

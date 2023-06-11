@@ -1,17 +1,19 @@
 import "./Style/Sidebar.css"
 import {Link} from "react-router-dom"
+import { FiAlignJustify,FiHeart,FiFolder } from "react-icons/fi";
 
 
-/* import Bgr from "../assets/backgrn/wallpaperflare.com_wallpaper (2).jpg"
-import Img from "../assets/img/twice.jpg" */
-/* import Body from "./Body" */
+
 function Sidebar() {
   return (
         <div className="sidebar">
                 <ul>
-                    <li><Link to="/dashboard">Dashboard</Link></li>
-                    <li><Link to="/like">Like</Link></li>
-                    <li><Link to="/history">History</Link></li>
+                    <li> <Link to="/dashboard">
+                      <FiAlignJustify className="icn"/> Dashboard</Link></li>
+                    <li><Link to="/like">
+                      <FiHeart className="icn"/>Like</Link></li>
+                    <li><Link to="/history">
+                      <FiFolder className="icn"/>History</Link></li>
                 </ul>
         </div>
         
