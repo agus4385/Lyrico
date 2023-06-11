@@ -1,7 +1,7 @@
 import "./Style/Home.css";
-import Sidebar from "./Sidebar";
-import Footer from "./Footer";
-import SideKiri from "./SideKiri";
+// import Sidebar from "./Sidebar";
+// import Footer from "./Footer";
+// import SideKiri from "./SideKiri";
 import Body from "./Body";
 import { useState } from "react";
 
@@ -35,11 +35,10 @@ function Home() {
     return (
       <div className="container">
         <div className="main-container">
-          <Sidebar />
+          {/* <Sidebar /> */}
           <Body />
-          <SideKiri />
+          {/* <SideKiri /> */}
         </div>
-        <Footer />
       </div>
     );
   }

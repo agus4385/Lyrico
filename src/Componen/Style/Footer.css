@@ -4,6 +4,7 @@
       /* border: 1px solid #fff; */
       height: 13vh;
       display: flex;
+      width: 100%;
 }
 .footer .fot-img{
       margin-left: 5rem;
