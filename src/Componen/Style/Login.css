@@ -1,21 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    margin: 0;
-  }
-  .main-container{
-    display: flex;
-  } */
-
-  /* *{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -31,7 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(17, 86, 165);
+    background-color: #a86aca;
     border-radius: 15px;
     height: 450px;
     width: 450px;
@@ -54,15 +37,15 @@ h2{
     width: 80%;
     height: 47px;
     font-family: 'Judson', serif;
-    background-color: #2e1588;
+    background-color: #000000;
     font-size: 20px;
-    color: rgba(86, 38, 189, 0.8);
+    color: rgb(255, 255, 255);
     border: 1.5px solid black;
     justify-content: center;
     align-items: center;
 }
 .fill input{
-    background-color: rgb(165, 21, 21);
+    background-color: rgb(217, 217, 217);
     border: 1px solid black;
     height: 40px;
     border-radius: 10px;
@@ -89,4 +72,7 @@ p.cekKeterangan{
     font-family: 'Judson', serif;
     font-size: 13px;
     margin-left: 10px;
-} */
+}
+
+ 
+ 

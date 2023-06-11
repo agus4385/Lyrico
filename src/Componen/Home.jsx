@@ -1,4 +1,5 @@
-import "./Style/Home.css";
+// import "./Style/Home.css";
+import "./Style/Login.css";
 // import Sidebar from "./Sidebar";
 // import Footer from "./Footer";
 // import SideKiri from "./SideKiri";
@@ -27,7 +28,20 @@ function Home() {
     return (
       <div className="container">
         <button id="login" onClick={login}>
-          Login
+        <form className="loginForm">
+          <h2>Play Music </h2>
+          <div className="fill">
+            <input type="text" name="email" placeholder="Email"/>
+            <input type="password" name="password" placeholder="Password"/>
+          </div>
+              <button className="loginButton" type="submit">Login</button>
+              <p>Belum ada akun? <a href="">Buat akun</a></p>
+          <div className="cekPrivasi">
+            <input type="checkbox" name="check"/>
+            <p className="cekKeterangan">to be your self
+            </p>
+          </div>
+        </form>
         </button>
       </div>
     );
