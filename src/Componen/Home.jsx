@@ -1,44 +1,48 @@
-import "./Style/Home.css"
-import Sidebar from "./Sidebar"
-import Footer from "./Footer"
-import SideKiri from "./SideKiri"
-import Body from "./Body"
-import { useOutletContext } from "react-router-dom"
-
+import "./Style/Home.css";
+import Sidebar from "./Sidebar";
+import Footer from "./Footer";
+import SideKiri from "./SideKiri";
+import Body from "./Body";
+import { useState } from "react";
 
 function Home() {
-  // const token = useOutletContext();
-  const data = fetch(
-    `${
-      import.meta.env.VITE_API_SPOTIFY_URL
-    }/api/token`,
-    {
+  const [accessToken, setAccessToken] = useState(null);
+  const clientId = import.meta.env.VITE_CLIENT_ID;
+  const clientSecret = import.meta.env.VITE_CLIENT_SECRET;
+
+  const login = async () => {
+    const response = await fetch("https://accounts.spotify.com/api/token", {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
       },
-      body: 'grant_type=client_credentials&client_id=d9acce75f1624dcfa73587eecf26bb45&client_secret=99bdbe8480f34ee08016c7bd55a60aad'
-    })
-      .then(response => response.json())
-      .then(data => {
-        console.log(data);
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-
-  console.log(data)
-  return (
-    <div className="container">
-
+      body: `grant_type=client_credentials&client_id=${clientId}&client_secret=${clientSecret}`,
+    });
+    const data = await response.json();
+    console.log(data);
+    setAccessToken(data.access_token);
+  };
+  console.log(!accessToken);
+  if (!accessToken) {
+    return (
+      <div className="container">
+        <button id="login" onClick={login}>
+          Login
+        </button>
+      </div>
+    );
+  } else {
+    return (
+      <div className="container">
         <div className="main-container">
-          <Sidebar/>
+          <Sidebar />
           <Body />
-          <SideKiri/>
+          <SideKiri />
         </div>
-        <Footer/>
-     </div>
-  )
+        <Footer />
+      </div>
+    );
+  }
 }
 
-export default Home
+export default Home;
