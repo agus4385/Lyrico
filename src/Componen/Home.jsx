@@ -35,10 +35,11 @@ function Home() {
             <input type="password" name="password" placeholder="Password"/>
           </div>
               <button className="loginButton" type="submit">Login</button>
-              <p>Belum ada akun? <a href="">Buat akun</a></p>
+              
+              <p className="buat_akun">Dont have account? <a href="">Create an account</a></p>
           <div className="cekPrivasi">
             <input type="checkbox" name="check"/>
-            <p className="cekKeterangan">to be your self
+            <p className="cekKeterangan">I agree to all the terms listed above.
             </p>
           </div>
         </form>
