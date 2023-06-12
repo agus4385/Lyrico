@@ -9,7 +9,7 @@ function Sidebar() {
         <div className="sidebar">
                 <ul>
                     <li> <Link to="/dashboard">
-                      <FiAlignJustify className="icn"/> Dashboard</Link></li>
+                      <FiAlignJustify  className="icn"/> Dashboard</Link></li>
                     <li><Link to="/like">
                       <FiHeart className="icn"/>Like</Link></li>
                     <li><Link to="/history">

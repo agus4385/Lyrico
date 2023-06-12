@@ -24,98 +24,12 @@ function Body() {
                   
                   <a href="">Twice</a>
                   <h5>Dari : Kipli</h5>
+                  <br />
                 </div>
                   
               </div>
             </div>
-            <div className="sub">
-                <div className="putar">
-                <img className="img" src={Img} alt="" />
-                <div className="judul">
-                  
-                  <a href="">Twice</a>
-                  <h5>Dari : Kipli</h5>
-                </div>
-                  
-              </div>
-            </div>
-            <div className="sub">
-                <div className="putar">
-                <img className="img" src={Img} alt="" />
-                <div className="judul">
-                  
-                  <a href="">Twice</a>
-                  <h5>Dari : Kipli</h5>
-                </div>
-                  
-              </div>
-            </div>
-            <div className="sub">
-                <div className="putar">
-                <img className="img" src={Img} alt="" />
-                <div className="judul">
-                  
-                  <a href="">Twice</a>
-                  <h5>Dari : Kipli</h5>
-                </div>
-                  
-              </div>
-            </div>
-            <div className="sub">
-                <div className="putar">
-                <img className="img" src={Img} alt="" />
-                <div className="judul">
-                  
-                  <a href="">Twice</a>
-                  <h5>Dari : Kipli</h5>
-                </div>
-                  
-              </div>
-            </div>
-            <div className="sub">
-                <div className="putar">
-                <img className="img" src={Img} alt="" />
-                <div className="judul">
-                  
-                  <a href="">Twice</a>
-                  <h5>Dari : Kipli</h5>
-                </div>
-                  
-              </div>
-            </div>
-            <div className="sub">
-                <div className="putar">
-                <img className="img" src={Img} alt="" />
-                <div className="judul">
-                  
-                  <a href="">Twice</a>
-                  <h5>Dari : Kipli</h5>
-                </div>
-                  
-              </div>
-            </div>
-            <div className="sub">
-                <div className="putar">
-                <img className="img" src={Img} alt="" />
-                <div className="judul">
-                  
-                  <a href="">Twice</a>
-                  <h5>Dari : Kipli</h5>
-                </div>
-                  
-              </div>
-            </div>
-            <div className="sub">
-                <div className="putar">
-                <img className="img" src={Img} alt="" />
-                <div className="judul">
-                  
-                  <a href="">Twice</a>
-                  <h5>Dari : Kipli</h5>
-                </div>
-                  
-              </div>
-            </div>
+            
        
         
             

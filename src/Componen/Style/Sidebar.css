@@ -10,10 +10,7 @@
     text-decoration: none;
     margin-top: 3rem;
 }
-.sidebar .icn{
-    margin-left: 0px;
-}
-  
+
 .sidebar li  {
 width: 20vh;
 text-decoration: none;
@@ -23,6 +20,7 @@ padding-bottom: 30px;
 font-family: Arial, Helvetica, sans-serif;
 cursor: pointer;
 transition: .3s linear;
+
 }  
 .sidebar li a{
     text-decoration: none;
