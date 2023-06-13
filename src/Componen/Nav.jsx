@@ -7,8 +7,8 @@ function Nav() {
       <div className="nav-body">
         <ul>
           {/* <li><Link to="/daily">Daily</Link></li> */}
-          <li><Link to="/artis">Artis</Link></li>
-          <li><Link to="/playlist">Playlist</Link></li>
+          {/* <li><Link to="/artis">Artis</Link></li>
+          <li><Link to="/playlist">Playlist</Link></li> */}
 
           <input className="src" type="search" placeholder="ketik untuk memulai" />
         </ul>

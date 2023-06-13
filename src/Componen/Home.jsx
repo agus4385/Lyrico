@@ -35,7 +35,7 @@ function Home() {
             <input type="password" name="password" placeholder="Password"/>
           </div>
               <button className="loginButton" onClick={login}>Login</button>
-              {/* <button className="loginButton" type="submit">Login</button> */}
+              <button className="loginButton" type="submit">Login</button>
               <p>Belum ada akun? <a href="">Buat akun</a></p>
           <div className="cekPrivasi">
             <input type="checkbox" name="check"/>

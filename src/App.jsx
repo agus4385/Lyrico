@@ -7,6 +7,7 @@ import Like from "./Componen/Like";
 import History from "./Componen/History";
 import Artis from "./assets/Object/Artis";
 import Playlist from "./assets/Object/Playlist";
+// import Daily from "./assets/Object/Daily";
 // import Login from "./Componen/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
@@ -16,12 +17,13 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Body />} />
-          <Route path="/daily" element={<Daily />} />
+          {/* <Route path="/daily" element={<Daily />} /> */}
           <Route path="/like" element={<Like />} />
-          <Route path="/history" element={<History />} />
-          <Route path="/artis" element={<Artis />} />
-          <Route path="/playlist" element={<Playlist />} />
-          <Route path="/top_music" element={<Playlist />} />
+          <Route path="/search" element={<Artis />} />
+          {/* <Route path="/artis" element={<Artis />} /> */}
+          <Route path="/myplaylist" element={<Playlist />} />
+          {/* <Route path="/top_music" element={<Playlist />} /> */}
+          <Route path="/playlist" element={<Daily />}/>
           {/* <Route path="/login" element={<Login />} /> */}
       </Routes>
     </Router>

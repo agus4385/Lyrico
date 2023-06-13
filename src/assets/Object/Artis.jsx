@@ -1,5 +1,6 @@
 import Sidebar from "../../Componen/Sidebar"
 import Footer from "../../Componen/Footer"
+import Nav from "../../Componen/Nav"
 import "./Object.css/Artis.css"
 import rizkyfebian from "../img/rizkyfebian.jpg"
 import andmesh from "../img/andmesh.jpg"
@@ -16,6 +17,7 @@ import alditaher from "../img/alditaher.jpeg"
 
 
 
+
 function Artis() {
   return (
     <div className="artist">
@@ -24,7 +26,7 @@ function Artis() {
         <div className="home-artist">
         <Sidebar/>
         <div className="judul-artist">
-          <h1>Artist</h1>
+          <Nav/>
           
 
         <div className="artist-scroll">
