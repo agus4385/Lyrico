@@ -24,7 +24,7 @@ function Like() {
               </p>
               <div className="buttons">
                 <button>Play</button>
-                <button>Liked</button>
+                <button>Liked</button>                    
               </div>                                                                                                                                                                                                                                                                                                                                                                             
             </div> 
           </div>
