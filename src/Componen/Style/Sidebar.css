@@ -30,3 +30,12 @@ transition: .3s linear;
 .sidebar li a:hover {
     color: rgb(5, 99, 181);
 } 
+.icn{
+    color: antiquewhite;
+}
+.link-side{
+    margin-left: 10px;
+}
+.link-sid{
+    margin-left: 5px;
+}

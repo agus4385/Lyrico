@@ -21,20 +21,21 @@ function Home() {
     });
     const data = await response.json();
     console.log(data);
+    localStorage.setItem("spotify-token". d)
     setAccessToken(data.access_token);
   };
   console.log(!accessToken);
   if (!accessToken) {
     return (
       <div className="container">
-        <button id="login" onClick={login}>
         <form className="loginForm">
           <h2>Play Music </h2>
           <div className="fill">
             <input type="text" name="email" placeholder="Email"/>
             <input type="password" name="password" placeholder="Password"/>
           </div>
-              <button className="loginButton" type="submit">Login</button>
+              <button className="loginButton" onClick={login}>Login</button>
+              {/* <button className="loginButton" type="submit">Login</button> */}
               <p>Belum ada akun? <a href="">Buat akun</a></p>
           <div className="cekPrivasi">
             <input type="checkbox" name="check"/>
@@ -42,12 +43,11 @@ function Home() {
             </p>
           </div>
         </form>
-        </button>
       </div>
     );
   } else {
     return (
-      <div className="container">
+      <div className="container-login">
         <div className="main-container">
           {/* <Sidebar /> */}
           <Body />

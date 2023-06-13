@@ -8,12 +8,12 @@ function Sidebar() {
   return (
         <div className="sidebar">
                 <ul>
-                    <li> <Link to="/dashboard">
-                      <FiAlignJustify  className="icn"/> Dashboard</Link></li>
-                    <li><Link to="/like">
-                      <FiHeart className="icn"/>Like</Link></li>
-                    <li><Link to="/history">
-                      <FiFolder className="icn"/>History</Link></li>
+                    <li>  <FiAlignJustify  className="icn"/> <Link className="link-sid" to="/dashboard">
+                      Dashboard</Link></li>
+                    <li><FiHeart className="icn"/><Link className="link-side" to="/like">
+                      Like</Link></li>
+                    <li><FiFolder className="icn"/><Link className="link-side" to="/history">
+                      Album</Link></li>
                 </ul>
         </div>
         

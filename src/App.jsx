@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Routes>
-          <Route path="/login" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Body />} />
           <Route path="/daily" element={<Daily />} />
           <Route path="/like" element={<Like />} />
