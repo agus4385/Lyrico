@@ -1,0 +1,129 @@
+/* Like */
+.like-home {
+    display: flex;
+    height: 87vh;
+    width: 100%;
+    background-color: #29292b;
+}
+
+.like-home .like-judul-album {
+    height: 87vh;
+    width: 83%;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+}
+
+.like-home .like-judul-album .like-album {
+    display: flex;
+    border: 1px solid #0000ba;
+}
+
+.like-home .like-judul-album .album-img {
+    height: 35vh;
+    width: 35vh;
+    margin: 2rem;
+}
+
+.like-home .like-judul-album h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #ffff;
+    margin: 45px 20px 150px 300px;
+    position: absolute;
+    /* border: 1px solid #ffff; */
+}
+
+.like-home .like-judul-album p {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #0000ba;
+    margin: 130px 150px 90px 10px;
+    /* border: 1px solid #ffff; */
+}
+
+.like-home .like-judul-album .like-album .buttons {
+    display: flex;
+    position: absolute;
+    margin: 220px 90px 45px 300px;
+}
+
+.like-home .buttons button {
+    width: 130px;
+    height: 30px;
+    border: 2px solid #ffff;
+    outline: none;
+    border-radius: 20px;
+    background: #0000ba;
+    color: #ffff;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.like-home .buttons button:hover {
+    border: 2px solid #ffff;
+    background: none;
+    color: #0000ba;
+}
+
+.like-home .like-album-2 {
+    width: 70%;
+    height: auto;
+    border: 1px solid #ffff;
+    margin: 330px 50px 100px 300px;
+    position: absolute;
+}
+
+.like-home .like-album-2 .h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffff;
+}
+
+.like-home .like-album-2 .album {
+    width: 100%;
+    height: 230px;
+    margin-top: 15px;
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+}
+
+.like-home .like-album-2 .album .sub {
+    background-color: rgb(31, 23, 46);
+    height: 12rem;
+    width: 9rem;
+    border-radius: 10px;
+}
+  
+.like-home .like-album-2 .album .sub .img{
+    border-radius: 25px;
+    padding: 1rem;
+    height: 7rem;
+    width: 7rem;
+}
+
+.like-home .like-album-2 .album .sub .putar{
+    margin-top: -2rem;
+    height: 3rem;
+    text-align: center;
+}
+
+.like-home .like-album-2 .album .sub .putar h4{
+    margin-top: 1.5rem;
+    font-size: medium;
+    color: #fff;
+}
+ 
+.like-home .like-album-2 .album .sub .putar h4 a{
+    color: #fff;
+    text-decoration: none;
+}
+  
+.like-home .like-album-2 .album .sub .putar p{
+    margin-top: 5px;
+    font-size: small;
+    color: #fff;
+}
