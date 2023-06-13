@@ -28,7 +28,7 @@ function Artis() {
         <div className="judul-artist">
           <Nav/>
           
-
+          <h1>Recently Searches</h1>
         <div className="artist-scroll">
 
         <div className="list-artist">

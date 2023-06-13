@@ -7,10 +7,13 @@
 
 .artist .home-artist .judul-artist h1{
     height: 50px;
-    background-color: #4c4e56c8;
+    background-color: #071727;
     color: #ffffff;
-    text-align: center;
-    padding-top: 10px;
+    margin-left: 110px;
+    padding-top: 30px;
+    font-size: xx-large;
+    
+
 }
 
 .artist .home-artist .artist-scroll{
