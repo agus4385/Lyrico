@@ -25,20 +25,20 @@
 }
 
 .like-home .like-judul-album h1 {
-    font-size: 37px;
+    font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
     color: #ffff;
-    margin: 25px 250px;
+    margin: 65px 257px;
     position: absolute;
     /* border: 1px solid #ffff; */
 }
 
 .like-home .like-judul-album p {
-    font-size: 25px;
+    font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
-    color: #4a4a54;
+    color: #f3f3f6;
     margin: 90px 100px 90px 10px;
     /* border: 1px solid #ffff; */
 }
