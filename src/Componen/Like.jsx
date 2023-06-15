@@ -18,10 +18,11 @@ function Like() {
           <div className="like-judul-album">
             <div className="like-album">
               <img className="album-img" src={Foto} alt="Foto" />
-              <h1>My Chemical Romance</h1>
+              <h1>Playlist</h1> 
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                Lagu Yang Disukai
               </p>
+              
               <div className="buttons">
                 <button>Play</button>
                 <button>Liked</button>                    
