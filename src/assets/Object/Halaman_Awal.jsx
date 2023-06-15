@@ -12,7 +12,7 @@ function Halaman_Awal() {
         <h1 className="text2">HARIMU</h1>
         <h1 className="text3">LEBIH</h1>
         <h1 className="text4">MENYENANGKAN</h1>
-        <h1>jjjjj</h1>
+      
 
        </div>
     

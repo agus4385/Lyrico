@@ -19,9 +19,9 @@ function Body() {
          <div className="home">
           
             <div className="sub">
-                <div className="putar">
-                <img className="img" src={Img} alt="" />
-                <div className="judul">
+                <div className="putar-body">
+                <img className="img-body" src={Img} alt="" />
+                <div className="judul-body">
                   <Link to="/playlist"> Twice </Link>
                   {/* <a href="">Twice</a> */}
                   <h5>Dari : Kipli</h5>
