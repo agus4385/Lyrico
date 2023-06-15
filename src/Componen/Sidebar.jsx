@@ -16,6 +16,8 @@ function Sidebar() {
                       Like</Link></li>
                     <li><FiList className="icn"/><Link className="link-side" to="/history">
                       Playlist</Link></li>
+                      <li><FiList className="icn"/><Link className="link-side" to="/lyrico">
+                     Abaikan</Link></li>
                 </ul>
         </div>
         

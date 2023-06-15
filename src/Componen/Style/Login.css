@@ -5,109 +5,15 @@
 }
 
 .container{
-    top:50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    background-color: #f4f4f4;
+  
+   height: 100vh;
+   width: 100%;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
 }
 
-form{ margin: 1px 0px;}
-
-
-#inputFor{ margin-bottom: 10px;}
-.forForgot:hover{ 
-    color: #552ab9;
-}
-
-button:hover{
-    background-color: #552ab9; color: #000;
-}
-
-.signup a:hover{
-    color: green;
-}
-
-.login{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-.loginForm{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(174, 177, 193);
-    border-radius: 15px;
-    height: 450px;
-    width: 450px;
-}
-.fill{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 70%;
-}
-h2{
-    margin-top: 35px;
-    margin-bottom: 50px;
-    font-family: 'Judson', serif;
-    font-size: 30px;
-}
-.loginButton{
-    display: flex;
-    margin-top: 40px;
-    width: 60%;
-    height: 47px;
-    font-family: 'Judson', serif;
-    background-color: #636363;
-    font-size: 20px;
-    color: rgb(234, 234, 234);
-    border: 1.5px solid black;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-.fill input{
-    background-color: rgb(217, 217, 217);
-    border: 1px solid black;
-    height: 40px;
-    border-radius: 10px;
-    padding-left: 10px;
-}
-input:focus{
-    outline: none;
-}
-p{
-    font-family: 'Judson', serif;
-    font-size: 15px;
-}
-.cekPrivasi{
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 90%;
-    margin-top: 15px;
-    margin-left: 100px;
-}
-.buat_akun{
-    margin-top: 15px;
-}
-
-.cekPrivasi input{
-    margin: 3px;
-}
-p.cekKeterangan{
-    font-family: 'Judson', serif;
-    font-size: 13px;
-    margin-left: 10px;
-}
-.checkbox{
-    /* background-color: #552ab9; */
-    cursor: pointer;
-}
 
  
  
