@@ -4,11 +4,8 @@ import Home from "./Componen/Home";
 import  Body from "./Componen/Body"
 import Daily from "./assets/Object/Daily"
 import Like from "./Componen/Like"
-// import History from/ "./Componen/History"
 import Artis from "./assets/Object/Artis"
-// import Halaman_Awal from "./assets/Object/Halaman_Awal";
 import Playlist from "./assets/Object/Playlist"
-// import Daily from "./assets/Object/Daily";
 import Login from "./Componen/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
