@@ -14,10 +14,9 @@ function Sidebar() {
                       Search</Link></li>
                     <li><FiHeart className="icn"/><Link className="link-side" to="/like">
                       Like</Link></li>
-                    <li><FiList className="icn"/><Link className="link-side" to="/history">
-                      Playlist</Link></li>
-                      <li><FiList className="icn"/><Link className="link-side" to="/lyrico">
-                     Abaikan</Link></li>
+                    <li><FiList className="icn"/><Link className="link-side" to="/myplaylist">
+                     My Playlist</Link></li>
+                   
 
                      <li><FiList className="icn"/><Link className="link-side" to="/login">
                      Login</Link></li>

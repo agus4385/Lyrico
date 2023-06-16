@@ -12,6 +12,7 @@
       padding: var(--padding);
       color: var(--primary-color);
   }
+ 
   i{
       color: var(--secondary-color);
   }

@@ -1,5 +1,4 @@
 
-
 .home-img{
     width: 100%;
     display: flex;
@@ -12,7 +11,7 @@
 .cover{
     width: 25vh;
     box-shadow: 0 0 8px 8px #070341;
-    background: linear-gradient(#0436ff,#2900f421);
+    background: linear-gradient(#0b1d63,#2900f421);
 }
 .judul{
     padding-top: 0.5rem;
@@ -27,12 +26,13 @@
     background-color: rgba(9, 12, 12, 0.8);
     /* border: 1px solid #fff; */
     box-shadow: 0 0 5px 4px #08022f;
-    width: 160%;
-    margin-top: 3rem;
-    height: 87vh;
-    margin-left: 2rem;
+    width: 110%;
+    /* margin-top: 3rem; */
+    height: 100vh;
+    /* margin-left: 2rem; */
     border-radius: 28px;
     opacity: 0.6;
+    display: flex;
 }
 
 .yrico{
@@ -70,5 +70,25 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #dfdfdf;
     font-size: 30px;
+}
+.layhomekanan{
+    margin-left: 45%;
+    margin-top: 10rem;
+}
+.text5{
+    margin-left: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #dfdfdf;
+    font-size: 50px;
+}
+.get-start{
+    background-color: aqua;
+    color: black;
+    height: 7vh;
+    width: 60%;
+    margin-top: 6rem;
+    margin-left: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 

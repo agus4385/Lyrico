@@ -2,7 +2,8 @@
     display: flex;
     height: 86.5vh;
     width: 100%;
-    background-color: #071727;
+    background-color: #121213;
+
 }
 
 .artist .home-artist .judul-artist h1{
@@ -37,7 +38,9 @@
 
 .artist .home-artist .list-artist{
     margin: 1rem;
-    background-color: #1d6fd442;
+    background-color:#00162e ;
+    border: 1px solid #fff;
+    /* background-color: #1d6fd442; */
     border-radius: 10px;
     height: 13.5rem;
     width: 11.4rem;

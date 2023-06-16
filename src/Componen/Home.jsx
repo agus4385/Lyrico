@@ -1,5 +1,6 @@
 // import "./Style/Home.css";
 import "./Style/Login.css";
+import ".././assets/Object/Object.css/Homepage.css"
 // import Sidebar from "./Sidebar";
 // import Footer from "./Footer";
 // import SideKiri from "./SideKiri";
@@ -27,13 +28,35 @@ function Home() {
   console.log(!accessToken);
   if (!accessToken) {
     return (
-     
+      <div className="home-img"> 
+      <div className="cover">
 
-      <div className="container">
-      <button id="login" onClick={login}>
-        Login
-      </button>
+       <h1 className="judul">L <span className="yrico">y</span></h1>
+      </div>
+       <div className="text-judul">
+        <div className="layhom">
+
+        <h1 className="text1">BUAT</h1>
+        <h1 className="text2">HARIMU</h1>
+        <h1 className="text3">LEBIH</h1>
+        <h1 className="text4">MENYENANGKAN</h1>
+        </div>
+        <div className="layhomekanan">
+        <h1 className="text5">BERSAMA</h1>
+        <h1 className="text5">LyRico</h1>
+      
+          <button className="get-start" id="start" onClick={login}>
+           Get start
+          </button>
+
+        </div>
+
+       </div>
+    
     </div>
+
+    
+  
     
           
    
