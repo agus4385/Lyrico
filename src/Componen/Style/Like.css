@@ -3,14 +3,15 @@
     display: flex;
     height: 86.5vh;
     width: 100%;
-    background-color: #29292b;
+    background-color: #282851;
+    overflow-y: scroll;
 }
 
 .like-home .like-judul-album {
     height: 87vh;
     width: 83%;
-    overflow-y: scroll;
     flex-wrap: wrap;
+    
 }
 
 .like-home .like-judul-album .like-album {
@@ -71,7 +72,7 @@
     width: 70%;
     height: auto;
     /* border: 1px solid #ffff; */
-    margin: 200px 300px;
+    margin: 225px 220px;
     position: absolute;
 }
 
@@ -82,14 +83,28 @@
     color: #ffff;
 }
 
-.like-home .like-album-2 .album {
+.like-home .like-album-2 .table-like-album {
     width: 100%;
-    height: 230px;
-    margin-top: 0px;
+    height: 25px;
+    margin-top: 5px;
     display: flex;
     gap: 1rem;
-    overflow-x: scroll;
+    /* overflow-y: scroll; */
+    color: white;
 }
+.like-home .like-album-2 .table-like-album tr {
+    margin-bottom: 10px;
+}
+.like-home .like-album-2 .table-like-album tr td {
+    padding: 18px 75px 10px 10px;
+    /* border: 1px solid black; */
+}
+
+.like-home .like-album-2 .table-like-album table tr td .iconlike {
+    height: 15px;
+    width: 18px;
+}
+
 
 .like-home .like-album-2 .album .sub {
     background-color: rgb(31, 23, 46);
