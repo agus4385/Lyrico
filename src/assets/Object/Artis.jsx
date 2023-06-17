@@ -17,7 +17,6 @@ import alditaher from "../img/alditaher.jpeg"
 
 
 
-
 function Artis() {
   return (
     <div className="artist">
@@ -25,7 +24,7 @@ function Artis() {
 
         <div className="home-artist">
         <Sidebar/>
-        <div className="judul-artist">
+        <div className="nav-artist">
           <Nav/>
           
           <h1>Recently Searches</h1>
@@ -37,6 +36,7 @@ function Artis() {
               <h4><a href="">Rizky Febian</a> </h4> 
               <p>Artist</p>
           </div>
+
         </div>
         
         <div className="list-artist">
