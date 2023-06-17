@@ -4,18 +4,19 @@ import Footer from "./Footer"
 import Foto from "../assets/img/like.png"
 import likeicon from "../assets/img/love.png"
 import Foto2 from "../assets/img/The Black Parade.jpeg"
-import Foto3 from "../assets/img/World of Walker.jpeg"
-import Foto4 from "../assets/img/billie1.png"
-import Foto5 from "../assets/img/Cinta Luar Biasa.png"
-import Foto6 from "../assets/img/Born Pink.jpeg"
-import Foto7 from "../assets/img/Manusia.jpg"
-import Foto8 from "../assets/img/Life is but a Dream.jpg"
+// import Foto3 from "../assets/img/World of Walker.jpeg"
+// import Foto4 from "../assets/img/billie1.png"
+// import Foto5 from "../assets/img/Cinta Luar Biasa.png"
+// import Foto6 from "../assets/img/Born Pink.jpeg"
+// import Foto7 from "../assets/img/Manusia.jpg"
+// import Foto8 from "../assets/img/Life is but a Dream.jpg"
 
 function Like() {
   return (
-    <div className="container">
+    <div className="container-like">
       <div className="like-home">
           <Sidebar/>
+          
           <div className="like-judul-album">
             <div className="like-album">
               <img className="album-img" src={Foto} alt="Foto" />
@@ -36,16 +37,23 @@ function Like() {
               </div>
               <div className="table-like-album">
                 <table> 
+                
                   <tr>
                     <td>#</td>
+                   
                     <td>Title</td>
                     <td>Artis</td>
                     <td>Date</td>
                     <td>like</td>
                     <td>duration</td>
                   </tr>
+               
                   <tr>
-                    <td>1</td>
+                    <td className="td-position">1
+                      
+                      <img className="foto-like" src={Foto2} alt="" />
+                    </td>
+                  
                     <td>Separuh Nafas</td>
                     <td>Dewa 19</td>
                     <td>mar 16, 2022</td>
@@ -56,7 +64,10 @@ function Like() {
                     <td>3:42</td>
                   </tr>
                   <tr>
-                    <td>2</td>
+                  <td className="td-position">2
+                      
+                      <img className="foto-like" src={Foto2} alt="" />
+                    </td>
                     <td>Pink Venom</td>
                     <td>Black Pink</td>
                     <td>14 mar, 2022</td>
@@ -67,7 +78,10 @@ function Like() {
                     <td>3:04</td>
                   </tr>
                   <tr>
-                    <td>3</td>
+                  <td className="td-position">3
+                      
+                      <img className="foto-like" src={Foto2} alt="" />
+                    </td>
                     <td>Pluto Projector</td>
                     <td>Rex Orange</td>
                     <td>mar 12, 2022</td>
@@ -78,7 +92,10 @@ function Like() {
                     <td>4:27</td>
                   </tr>
                   <tr>
-                    <td>4</td>
+                  <td className="td-position">4
+                      
+                      <img className="foto-like" src={Foto2} alt="" />
+                    </td>
                     <td>Die For You</td>
                     <td>The Weeknd</td>
                     <td>reb 18, 2022</td>
@@ -89,7 +106,10 @@ function Like() {
                     <td>4:20</td>
                   </tr>
                   <tr>
-                    <td>5</td>
+                  <td className="td-position">5
+                      
+                      <img className="foto-like" src={Foto2} alt="" />
+                    </td>
                     <td>The Scientist</td>
                     <td>Colplay</td>
                     <td>Feb 18, 2022</td>

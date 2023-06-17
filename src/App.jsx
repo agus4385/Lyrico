@@ -7,7 +7,7 @@ import Like from "./Componen/Like"
 import Artis from "./assets/Object/Artis"
 import Playlist from "./assets/Object/Playlist"
 import Login from "./Componen/Login";
-import Myprofile  from "./Componen/Myprofile";
+// import Myprofile  from "./Componen/Myprofile";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Body />} />
-          <Route path="/profile" element={<Myprofile />} />
+          {/* <Route path="/profile" element={<Myprofile />} /> */}
           {/* <Route path="/daily" element={<Daily />} /> */}
           <Route path="/like" element={<Like />} />
           <Route path="/search" element={<Artis />} />
