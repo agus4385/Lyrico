@@ -1,10 +1,11 @@
+import React from "react";
+import "./Object.css/listmusic.css";
+import "./Object.css/Daily.css";
 
-import "./Object.css/Daily.css"
-
-
-function Listmusic() {
-    return (
-        <div>Hai sayang</div>
-    )
+function ListMusic() {
+  return (
+    <div className="list-album">
+    </div>
+  );
 }
-export default Listmusic
+export default ListMusic;

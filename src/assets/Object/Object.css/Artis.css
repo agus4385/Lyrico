@@ -49,7 +49,10 @@
     width: 11.4rem;
 }
 
-
+.artist-scroll .list-artist:hover{
+    background-color: #022346;
+    cursor: pointer;
+}
 .artist .home-artist .list-artist .sublist-artist{
     text-align: center;
     font-family: 'Poppins', sans-serif;
