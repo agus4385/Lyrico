@@ -2,7 +2,7 @@ import "./Object.css/Daily.css"
 import Sidebar from "../../Componen/Sidebar"
 import Footer from "../../Componen/Footer"
 import Foto from "../img/baby.jpg"
-// import Listmusic from "./Listmusic"
+import Listmusic from "./Listmusic"
 // import Foto1 from "../img/blackpink.jpg"
 
 function Daily() {
@@ -28,7 +28,7 @@ function Daily() {
             <p>Waktu</p>
         </div> 
     </div>
-    {/* <Listmusic/> */}
+    <Listmusic/>
   
 
             
