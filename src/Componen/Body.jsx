@@ -7,6 +7,7 @@ import Footer from "./Footer"
 import { Link } from "react-router-dom"
 /* import Img2 from "../assets/img/nino.jpg" */
 // import Nav from "./Nav"
+
 function Body() {
   return (
     <div className="layout">
@@ -17,7 +18,6 @@ function Body() {
 
         {/* <Nav/> */}
          <div className="home">
-          
             <div className="sub">
                 <div className="putar-body">
                 <img className="img-body" src={Img} alt="" />
