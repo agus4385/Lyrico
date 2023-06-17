@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300&display=swap');
 
 /* Daily */
 
@@ -9,113 +11,97 @@
     height: 86.5vh;
     width: 100%;
     background-color: #29292b;
-  
+}
+.daily-judul{
+    display: block;
+    width: 100%;
+    overflow-y: scroll;
 
 }
-.daily-home .daily-judul h1{
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 1rem;
-    margin-top: 14rem;
-}
-
-.daily-home .daily-judul{
-height: 86.5vh;
-width: 100%;
-overflow-y: scroll;
-flex-wrap: wrap;
-}
-.daily-home .daily-judul .daily-lagu{
+.daily-judul2{
+    height: 40vh;
     display: flex;
-    background: linear-gradient(#01071d31,#46467d);
+    background: linear-gradient(#282851,#16162d);
+
 }
-.daily-home .daily-judul .judul-img{
-    height: 35vh;
-    width: 35vh;
-    margin: 1.5rem;
-    border: 1px solid #fff;
+.daily-foto{
+    height: 30vh;
+    width: 30vh;
+    margin: 2rem;
+    border: 1px solid #ffffff;
     border-radius: 10px;
 }
-.table-row{
-    display: table;
-    width: 100%;
+.daily-judul2 h1{
     
-    
-   
-    font-family: sans-serif;
-    background: transparent;
-    height: 9vh;
-    /* padding: 12px 0; */
-    color: #555;
-    font-size: 13px;
-    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
-}
-.table-row1{
-    display: table;
-    width: 100%;
-    margin-top: 6px;
-    border: 1px solid #fff  ;
-    font-family: sans-serif;
-    background: transparent;
-    /* padding: 20px 0; */
-    height: 10vh;
-    background-color: #1a1a4a;
-    font-size: 13px;
-    box-shadow: 0 1px 4px 0px 
-}
-.table-head{
-    background: #130249;
-    box-shadow: none;
-    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #f3f3f6;
+    font-size: 70px;
     font-weight: 600;
+    margin-top: 6rem;
+
+
 }
-.table-head .table-cell{
-    border-right: none;
-}
-.table-cell{
-    display: table-cell;
-    width: 20%;
-    text-align: center;
-    padding: 4px 0;
-    /* border-right: 1px solid #d6d4d4; */
-    vertical-align: middle;
-}
-.first-cell{
-    text-align: left;
-    padding-left: 10px;
-    
-}
-.last-cell{
-    border-right: none;
-}
-.table-row1:hover{
-    background-color: #8665f7;
-}
-.table-row1 p{
-    color: aliceblue;
-}
-.list-artis{
-    border: 1px solid #fff;
+.day-btn{
+   border-radius: 50%;
+   margin-top: 1rem;
     height: 60px;
     width: 60px;
-    border-radius: 5px;
-    margin-top: 3px;
+    background-color: aqua;
+    
 }
-.name-artis{
-    color: aliceblue;
+.day-btn :hover .fi{
+    background-color: aquamarine;
+}
+.fi{
+    /* color: #181e56; */
+    color: #0b0b2e;
+
+    margin-left: 4px;
+    margin-top: 2px;
+}
+.daily-span{
+    color: #f3f3f6;
+    margin-left: 0.8rem;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.judul-tabel{
+    border: 1px solid #5f5d5d;
+    /* background-color: #282851; */
+    background-color: #282851;
+
+    height: 100vh;
+}
+.daily-tabel{
+    margin-top: 1rem;
     margin-left: 1rem;
-    text-decoration: none;
-    display: grid;
-    
     
 }
-.judul-list{
-    display: grid;
-    margin-left: 3rem; 
+
+.tr-daily{
+    margin-bottom: 10px;
 }
-.position{
+.tr-daily td{
+    padding: 20px 75px 10px 0px;
+    color: #f3f3f6;
+    
+}
+.td-daily{
     display: flex;
 }
-.pos-judul{
+.td-daily p{
     margin-top: 1rem;
 }
+.day-img{
+    height: 50px;
+    width: 50px;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+.fiplay{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+

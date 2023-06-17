@@ -68,7 +68,7 @@
     transition: .3s linear;
 }
 
-.like-home .buttons button:hover {
+.like-home .buttons .btn-like:hover {
     border: 2px solid #ffff;
     background: none;
     color: #bbbbe9;
@@ -173,3 +173,5 @@ tr:hover{
 .td-position{
     display: flex;
 }
+
+
