@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  
 .artist .home-artist{
     display: flex;
     height: 86.5vh;
@@ -6,13 +8,14 @@
 
 }
 
-.artist .home-artist .judul-artist h1{
+.artist .home-artist .nav-artist h1{
+    font-family: 'Poppins', sans-serif;
     height: 50px;
     background-color: #071727;
     color: #ffffff;
     margin-left: 110px;
     padding-top: 30px;
-    font-size: xx-large;
+    font-size: x-large;
     
 
 }
@@ -42,13 +45,14 @@
     border: 1px solid #fff;
     /* background-color: #1d6fd442; */
     border-radius: 10px;
-    height: 13.5rem;
+    height: 14rem;
     width: 11.4rem;
 }
 
+
 .artist .home-artist .list-artist .sublist-artist{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 2px;
     margin-left: 1rem;
     width: 9.4rem;

@@ -22,7 +22,7 @@ function Like() {
               <img className="album-img" src={Foto} alt="Foto" />
               <h1>Playlist</h1> 
               <p>
-                Lagu Yang Disukai
+                Liked Songs
               </p>
               
               <div className="buttons">
