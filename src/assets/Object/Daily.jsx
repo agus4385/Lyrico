@@ -2,7 +2,8 @@ import "./Object.css/Daily.css"
 import Sidebar from "../../Componen/Sidebar"
 import Footer from "../../Componen/Footer"
 import Foto from "../img/baby.jpg"
-import Foto1 from "../img/blackpink.jpg"
+// import Listmusic from "./Listmusic"
+// import Foto1 from "../img/blackpink.jpg"
 
 function Daily() {
   return (
@@ -15,44 +16,30 @@ function Daily() {
             <img className="judul-img" src={Foto} alt="#" />
           <h1>Hallo</h1>
           </div>
-          <div className="daily-music">
-              <li id="11dFghVXANMlKmJXsNCbNl" className="li">
-                  <img className="daily-play" src={Foto1} alt="#"/>
-                  <a href="">
-                    Jokowi cover AI
-                    <div className="daily-artis">Unknown</div>
-                  </a>               
-             </li>
-             <li className="li">
-                  <img className="daily-play" src={Foto1} alt="#"/>
-                  <a href="">
-                    Jokowi cover AI
-                    <div className="daily-artis">Unknown</div>
-                  </a>               
-             </li>
-              <li className="li">
-                  <img className="daily-play" src={Foto1} alt="#"/>
-                  <a href="">
-                    Jokowi cover AI
-                    <div className="daily-artis">Unknown</div>
-                  </a>               
-             </li>
-             <li className="li">
-                  <img className="daily-play" src={Foto1} alt="#"/>
-                  <a href="">
-                    Jokowi cover AI
-                    <div className="daily-artis">Unknown</div>
-                  </a>               
-             </li>
-             <li className="li">
-                  <img className="daily-play" src={Foto1} alt="#"/>
-                  <a href="">
-                    Jokowi cover AI
-                    <div className="daily-artis">Unknown</div>
-                  </a>               
-             </li>
-          </div>
+          <div className="rowlist">
+          <div className="table-row table-head">
+        <div className="table-cell first-cell">
+            <p>Judul</p>
         </div>
+        <div className="table-cell">
+            <p>Artis</p>
+        </div>
+        <div className="table-cell last-cell">
+            <p>Waktu</p>
+        </div> 
+    </div>
+    {/* <Listmusic/> */}
+  
+
+            
+          </div>
+
+         
+          
+          
+            
+        
+      </div>
       </div>
        
          

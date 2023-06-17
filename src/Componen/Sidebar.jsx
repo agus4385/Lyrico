@@ -21,8 +21,8 @@ function Sidebar() {
                      <li><FiList className="icn"/><Link className="link-side" to="/login">
                      Login</Link></li>
 
-                     <li><FiList className="icn"/><Link className="link-side" to="/profile">
-                     Profile</Link></li>
+                     {/* <li><FiList className="icn"/><Link className="link-side" to="/profile">
+                     Profile</Link></li> */}
                 </ul>
         </div>
         
