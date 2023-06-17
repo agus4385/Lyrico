@@ -1,136 +1,33 @@
 import "./Object.css/Playlist.css"
 import Sidebar from "../../Componen/Sidebar"
 import Footer from "../../Componen/Footer"
-import Fot from "../img/gambar1.jpg"
-import { Link } from "react-router-dom"
-// import Top_Music from "../../Componen/Top_Music"
+
+import profil from "../img/coldplay.jpg"
+import Listmusic from "./Listmusic"
+
 
 function Playlist() {
   return (
     <div className="playlist">
         <div className="playlist-home">
           <Sidebar/>
+        
           <div className="playlist-scrol">
+            <div className="profile">
+              <img className="profil-img" src={profil} alt =""/>
+              <h1 className="profil-name">Coldplay</h1>
+              <h2 className="profil-name1">Profile</h2>
+              <h3 className="profil-name2">2 Public Playlist </h3>
+              
+            </div>
+            <Listmusic/>
 
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
+            <div className=" "></div>
 
-                <Link to="/top_music">Top Music</Link> 
+            </div>
 
-                <p>Yoashobi</p>
-              </div>
-          </div>
-          
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
 
-                <h4><a href="">Today Top Hits</a> </h4> 
-
-                <p>Yoashobi</p>
-              </div>
-          </div>
-          
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
-
-                <h4><a href="">Today Top Hits</a> </h4> 
-
-                <p>Yoashobi</p>
-              </div>
-          </div>
-          
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
-
-                <h4><a href="">Today Top Hits</a> </h4> 
-
-                <p>Yoashobi</p>
-              </div>
-          </div>
-          
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
-
-                <h4><a href="">Today Top Hits</a> </h4> 
-
-                <p>Yoashobi</p>
-              </div>
-          </div>
-          
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
-
-                <h4><a href="">Today Top Hits</a> </h4> 
-
-                <p>Yoashobi</p>
-              </div>
-          </div>
-          
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
-
-                <h4><a href="">Today Top Hits</a> </h4> 
-
-                <p>Yoashobi</p>
-              </div>
-          </div>
-          
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
-
-                <h4><a href="">Today Top Hits</a> </h4> 
-
-                <p>Yoashobi</p>
-              </div>
-          </div>
-          
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
-
-                <h4><a href="">Today Top Hits</a> </h4> 
-
-                <p>Yoashobi</p>
-              </div>
-          </div>
-          
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
-
-                <h4><a href="">Today Top Hits</a> </h4> 
-
-                <p>Yoashobi</p>
-              </div>
-          </div>
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
-
-                <h4><a href="">Today Top Hits</a> </h4> 
-
-                <p>Yoashobi</p>
-              </div>
-          </div>
-          <div className="playlist-body">
-                <img className="playlist-img" src={Fot} alt="" />
-                <div className="playlist-putar">
-
-                <h4><a href="">Today Top Hits</a> </h4> 
-
-                <p>Yoashobi</p>
-              </div>
-          </div>
-
-          </div>
+         
           
         </div>
         <Footer/>

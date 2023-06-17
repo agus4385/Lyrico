@@ -1,57 +1,49 @@
 .playlist .playlist-home {
     display: flex;
-    height: 86.5vh;
+    height: 88vh;
     width: 100%;
     background-color: #121213;
     /*background: url(../../backgrn/back.jpg);*/
     /* background: linear-gradient(#301c8821,#0000ba); */
 }
-.playlist .playlist-home .playlist-scrol {
-    padding: 1rem;
-    margin-top: 1.6rem;
-    margin-left: 5rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    height: 500px;
-    overflow-y: scroll;
-}
-
-.playlist .playlist-home .playlist-body .playlist-img{
-    height: 150px;
-    width: 150px;
-    margin-top: 1rem;
+.profil-img {
+    height: 100px;
+    width: 100px;
+    margin-top:1.5rem;
     margin-left: 1rem;
-    border-radius: 10px;
+    border-radius: 100%;
+}
+.playlist-scrol{
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+
+}
+.profile{
+    height: 20vh;
+    width: 100%;
+    background:  linear-gradient(to bottom, #2b1f49, #0d0e0d);
+    /* background-color: #2b1f49; */
+    display: flex;   
+    
     
 }
-.playlist .playlist-home .playlist-body {
-    margin: 1rem;
-    border: 2px solid #ffffff8d;
-    background-color:#00162e ;
+.profil-name1{
+    color:rgb(241, 233, 233);
+    font-size: 24px;
+    margin-top: 20px;   
+}
+.profil-name2{
+    font-size: 12px;
+    color: rgb(250, 230, 230);
+    margin-top: 110px;
+    display: inline-block;
+    margin-right: 50px; 
+}
 
-    border-radius: 10px;
-    height: 13.5rem;
-    width: 11.4rem;
-}
-/* .playlist .playlist-home .playlist-body :hover{
-    background-color: #29292b;
-}  */
+.profil-name{
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
 
-.playlist .playlist-home .playlist-body .playlist-putar{
-    text-align: center;
-    background-color: rgba(1, 1, 1, 0.663);
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 2px;
-    margin-left: 1rem;
-    width: 9.4rem;
-    border-radius: 5px;
-}
-.playlist .playlist-home .playlist-body .playlist-putar a{
-    text-decoration: none;
-    color: aliceblue;
-}
-.playlist .playlist-home .playlist-body .playlist-putar p{
-    color: rgb(188, 188, 192);
-    font-style: oblique;
 }
