@@ -1,10 +1,12 @@
 import Gmbr2 from ".././assets/backgrn/cyb.jpg"
 import Gmbr from ".././assets/backgrn/lofi.jpg.jpg"
+import { Link } from "react-router-dom"
 function Login() {
   return (
    <div className="loginlagi">
        <div className="login-kiri">
-       
+        
+       <Link ></Link>
         <div className="grad">
 
         <ul>
