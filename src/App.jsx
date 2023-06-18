@@ -15,6 +15,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import Callback from "./Componen/Callback";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -33,6 +34,7 @@ function App() {
           <Route path="playlist" element={<Daily />} />
           {/* <Route path="/myprofile" element={<Myprofile />} /> */}
         </Route>
+        <Route path="/callback" element={<Callback />} />
       </>
     )
   );

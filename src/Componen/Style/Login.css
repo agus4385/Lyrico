@@ -5,21 +5,20 @@
 }
 
 
-.loginlagi {
-  /* height: 100vh;
-  width: 100%; */
+/* .loginlagi {
+ 
   display: flex;
   background-image: url("../../assets//backgrn//wallpaperflare.com_wallpaper.jpg");
   
 
-  /* background-color: black; */
-  /* background: linear-gradient(#1130df, #5555); */
+  background-color: black;
+  background: linear-gradient(#1130df, #5555);
 }
 
 
 .loginlagi .login-kanan {
 
-  /* background-color: rgb(2, 11, 30); */
+  background-color: rgb(2, 11, 30);
   background: linear-gradient(#04042f,#02023c);
   opacity: 0.9;
   width: 50%;
@@ -32,7 +31,7 @@
   
 
 }
-/* Kanan  */
+Kanan 
 .forn-container {
   color: rgb(255, 255, 255);
   width: 380px;
@@ -97,7 +96,7 @@ button:active {
   opacity: 0.7;
   background: linear-gradient(#04042f,#02023c);
 
-  /* background: linear-gradient(#030321,#040411,#030215); */
+  background: linear-gradient(#030321,#040411,#030215);
 }
 .login-kiri ul{
 margin-top: 1rem;
@@ -126,10 +125,10 @@ font-size: 60px;
 margin-left: 2rem;
 }
 .grad{
-  /* background-color: rgba(7, 4, 37, 0.5); */
+  background-color: rgba(7, 4, 37, 0.5);
   border-radius: 15px;
 
-  /* box-shadow: 0 0 5px 4px #061849; */
+  box-shadow: 0 0 5px 4px #061849;
   height: 70vh;
 }
 .slidegambar{
@@ -139,7 +138,7 @@ margin-left: 2rem;
 
   overflow-y:hidden;
  
- /* background: black; */
+ background: black;
   border: 2px solid #0e1162;
   
 }
@@ -157,4 +156,4 @@ margin-left: 2rem;
   display: flex;
 }
 
-
+ */

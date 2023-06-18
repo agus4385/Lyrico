@@ -5,34 +5,29 @@ import ".././assets/Object/Object.css/Homepage.css";
 // import Footer from "./Footer";
 // import SideKiri from "./SideKiri";
 // import Body from "./Body";
-import { useState } from "react";
+// import { useState } from "react";
 import { Outlet } from "react-router-dom";
 
 function Home() {
-  const token = localStorage.getItem("spotify-token");
-  const [accessToken, setAccessToken] = useState(token);
   const clientId = import.meta.env.VITE_CLIENT_ID;
-  const clientSecret = import.meta.env.VITE_CLIENT_SECRET;
+  const token = localStorage.getItem("spotify-token");
   
   const login = async () => {
-    const response = await fetch("https://accounts.spotify.com/api/token", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      body: `grant_type=client_credentials&client_id=${clientId}&client_secret=${clientSecret}`,
-    });
-    const data = await response.json();
-    console.log(data);
-    localStorage.setItem("spotify-token", data.access_token)
-    setAccessToken(data.access_token);
+    console.log("breee");
+    const scopes = 'streaming user-read-private user-read-email'
+
+    const auth_query_parameters = new URLSearchParams({
+        response_type: 'code',
+        client_id: clientId,
+        scope: scopes,
+        redirect_uri: 'http://localhost:5173/callback',
+    })
+    window.location.replace('https://accounts.spotify.com/authorize/?' + auth_query_parameters.toString());
   };
 
-  // const token = localStorage.getItem("spotify-token");
-  
-  console.log(!accessToken);
+  console.log(!token);
 
-  if (!accessToken) {
+  if (!token) {
     return (
       <div className="home-img">
         <div className="cover">

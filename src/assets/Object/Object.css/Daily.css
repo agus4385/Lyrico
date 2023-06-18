@@ -46,15 +46,18 @@
    margin-top: 1rem;
     height: 60px;
     width: 60px;
-    background-color: aqua;
+    
+    border: none;
+    background-color: #b0b0cd;
     
 }
-.day-btn :hover .fi{
+
+.day-btn :hover {
     background-color: aquamarine;
 }
-.fi{
+.fi-btn{
     /* color: #181e56; */
-    color: #0b0b2e;
+    color: #0d0d0d;
 
     margin-left: 4px;
     margin-top: 2px;
@@ -100,8 +103,13 @@
     border-radius: 5px;
 }
 .fiplay{
-    margin-top: 1rem;
+    margin-top: 0.8rem;
     margin-left: 1rem;
+}
+.play-btn{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
 }
 
 
