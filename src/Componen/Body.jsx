@@ -17,15 +17,16 @@ function Body() {
           {/* <Nav/> */}
           <div className="home">
             <div className="sub">
-              <div className="putar-body">
-                <img className="img-body" src={Img} alt="" />
-                <div className="judul-body">
-                  <Link to="/playlist"> Twice </Link>
-                  {/* <a href="">Twice</a> */}
-                  <h5>Dari : Kipli</h5>
-                  <br />
+           
+
+              <div className="body-card">
+                <img className="card-img" src={Img} alt="" />
+                <div className="judul-card">
+                  <h4><Link to="/playlist"> Twice </Link> </h4> 
+                  <p>Artist</p>
                 </div>
               </div>
+
             </div>
           </div>
         </div>

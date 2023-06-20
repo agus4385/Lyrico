@@ -1,193 +1,129 @@
-import "./Style/Like.css"
-import Sidebar from "./Sidebar"
-import Footer from "./Footer"
-import Foto from "../assets/img/like.png"
-import likeicon from "../assets/img/love.png"
-import Foto2 from "../assets/img/The Black Parade.jpeg"
-// import Foto3 from "../assets/img/World of Walker.jpeg"
-// import Foto4 from "../assets/img/billie1.png"
-// import Foto5 from "../assets/img/Cinta Luar Biasa.png"
-// import Foto6 from "../assets/img/Born Pink.jpeg"
-// import Foto7 from "../assets/img/Manusia.jpg"
-// import Foto8 from "../assets/img/Life is but a Dream.jpg"
+import ".././assets/Object/Daily"
+import Sidebar from "./Sidebar";
+import Footer from "./Footer";
+import Foto from ".././assets/img/alanwalker.jpg"
+import Foto2 from ".././assets/img/alanwalker.jpg"
 
-function Like() {
+
+import { FiPlay, FiHeart } from "react-icons/fi";
+// import { useEffect, useState } from "react";
+
+// import Foto1 from "../img/blackpink.jpg"
+
+function Daily() {
+  const token = localStorage.getItem("spotify-token");
+
   return (
-    <div className="container-like">
-      <div className="like-home">
-          <Sidebar/>
-          
-          <div className="like-judul-album">
-            <div className="like-album">
-              <img className="album-img" src={Foto} alt="Foto" />
-              <h1>Playlist</h1> 
-              <p>
-                Liked Songs
-              </p>
-              
-              <div className="buttons">
-                <button className="btn-like">Play</button>
-                <button className="btn-like">Liked</button>                    
-              </div>                                                                                                                                                                                                                                                                                                                                                                              
-            </div> 
+    <div className="daily">
+      <div className="daily-home">
+        <Sidebar />
+        <div className="daily-judul">
+          <div className="daily-judul2">
+            <img className="daily-foto" src={Foto} alt="" />
+            <div className="daily-button">
+              <h1>Babay Metal</h1>
+              <button className="day-btn" >
+                <FiPlay className="fi-btn" size={30} />
+              </button>
+              <span className="daily-span">Play</span>
+            </div>
           </div>
-          <div className="like-album-2">
-            <div className="h2">
-              <h2>Album</h2>
-              </div>
-              <div className="table-like-album">
-                <table> 
-                
-                  <tr>
-                    <td>#</td>
-                   
-                    <td>Title</td>
-                    <td>Artis</td>
-                    <td>Date</td>
-                    <td>like</td>
-                    <td>duration</td>
-                  </tr>
-               
-                  <tr>
-                    <td className="td-position">1
-                      
-                      <img className="foto-like" src={Foto2} alt="" />
-                    </td>
-                  
-                    <td>Separuh Nafas</td>
-                    <td>Dewa 19</td>
-                    <td>mar 16, 2022</td>
-                    <td><img 
-                          className="iconlike" 
-                          src={likeicon} 
-                          alt="" /></td>
-                    <td>3:42</td>
-                  </tr>
-                  <tr>
-                  <td className="td-position">2
-                      
-                      <img className="foto-like" src={Foto2} alt="" />
-                    </td>
-                    <td>Pink Venom</td>
-                    <td>Black Pink</td>
-                    <td>14 mar, 2022</td>
-                    <td><img 
-                          className="iconlike" 
-                          src={likeicon} 
-                          alt="" /></td>
-                    <td>3:04</td>
-                  </tr>
-                  <tr>
-                  <td className="td-position">3
-                      
-                      <img className="foto-like" src={Foto2} alt="" />
-                    </td>
-                    <td>Pluto Projector</td>
-                    <td>Rex Orange</td>
-                    <td>mar 12, 2022</td>
-                    <td><img 
-                          className="iconlike" 
-                          src={likeicon} 
-                          alt="" /></td>
-                    <td>4:27</td>
-                  </tr>
-                  <tr>
-                  <td className="td-position">4
-                      
-                      <img className="foto-like" src={Foto2} alt="" />
-                    </td>
-                    <td>Die For You</td>
-                    <td>The Weeknd</td>
-                    <td>reb 18, 2022</td>
-                    <td><img 
-                          className="iconlike" 
-                          src={likeicon} 
-                          alt="" /></td>
-                    <td>4:20</td>
-                  </tr>
-                  <tr>
-                  <td className="td-position">5
-                      
-                      <img className="foto-like" src={Foto2} alt="" />
-                    </td>
-                    <td>The Scientist</td>
-                    <td>Colplay</td>
-                    <td>Feb 18, 2022</td>
-                    <td><img 
-                          className="iconlike" 
-                          src={likeicon} 
-                          alt="" /></td>
-                    <td>5:09</td>
-                  </tr>
-                </table>
-              </div>
+          <div className="judul-tabel">
+            <table className="daily-tabel">
+              <tr className="tr-daily">
+                <td>#</td>
+
+                <td>Title</td>
+                <td>Artis</td>
+                <td>Date</td>
+                <td>like</td>
+                <td>duration</td>
+              </tr>
+
+              <tr className="tr-daily">
+                <td className="td-daily">
+                  <p>1</p>
+                  <img className="day-img" src={Foto2} alt="" />
+                  <button className="play-btn"><FiPlay size={20} className="fiplay" /></button> 
+                </td>
+
+                <td>Separuh Nafas</td>
+                <td>Dewa 19</td>
+                <td>Mar 16, 2022</td>
+                <td>
+                  <FiHeart />
+                </td>
+                <td>3:42</td>
+              </tr>
+              <tr className="tr-daily">
+                <td className="td-daily">
+                  <p>1</p>
+                  <img className="day-img" src={Foto2} alt="" />
+                  <button className="play-btn"><FiPlay size={20} className="fiplay" /></button> 
+                </td>
+
+                <td>Separuh Nafas</td>
+                <td>Dewa 19</td>
+                <td>Mar 16, 2022</td>
+                <td>
+                  <FiHeart />
+                </td>
+                <td>3:42</td>
+              </tr>
+              <tr className="tr-daily">
+                <td className="td-daily">
+                  <p>1</p>
+                  <img className="day-img" src={Foto2} alt="" />
+                  <button className="play-btn"><FiPlay size={20} className="fiplay" /></button> 
+                </td>
+
+                <td>Separuh Nafas</td>
+                <td>Dewa 19</td>
+                <td>Mar 16, 2022</td>
+                <td>
+                  <FiHeart />
+                </td>
+                <td>3:42</td>
+              </tr>
+              <tr className="tr-daily">
+                <td className="td-daily">
+                  <p>1</p>
+                  <img className="day-img" src={Foto2} alt="" />
+                  <button className="play-btn"><FiPlay size={20} className="fiplay" /></button> 
+                </td>
+
+                <td>Separuh Nafas</td>
+                <td>Dewa 19</td>
+                <td>Mar 16, 2022</td>
+                <td>
+                  <FiHeart />
+                </td>
+                <td>3:42</td>
+              </tr>
+              <tr className="tr-daily">
+                <td className="td-daily">
+                  <p>1</p>
+                  <img className="day-img" src={Foto2} alt="" />
+                  <button className="play-btn"><FiPlay size={20} className="fiplay" /></button> 
+                </td>
+
+                <td>Separuh Nafas</td>
+                <td>Dewa 19</td>
+                <td>Mar 16, 2022</td>
+                <td>
+                  <FiHeart />
+                </td>
+                <td>3:42</td>
+              </tr>
+             
+            </table>
           </div>
-        
         </div>
-        <Footer/>
+      </div>
+
+      <Footer token={token}/>
     </div>
-  )
+  );
 }
 
-export default Like
-
-
-
-{/* <div className="like-album-2">
-            <div className="h2">
-              <h2>Album</h2>
-            </div>
-            <div className="album">
-              <div className="sub">
-                <img className="img" src={Foto2} alt="" />
-                <div className="putar">
-                  <h4><a href="">The Black Parade</a></h4> 
-                  <p>My Chemical Romance</p>
-                </div>
-              </div>
-              <div className="sub">
-                <img className="img" src={Foto3} alt="" />
-                <div className="putar">
-                  <h4><a href="">World of Walker</a></h4> 
-                  <p>Alan Walker</p>
-                </div>
-              </div>
-              <div className="sub">
-                <img className="img" src={Foto4} alt="" />
-                <div className="putar">
-                  <h4><a href="">Happier Than Ever</a></h4> 
-                  <p>Billie Eilish</p>
-                </div>
-              </div>
-              <div className="sub">
-                <img className="img" src={Foto5} alt="" />
-                <div className="putar">
-                  <h4><a href="">Cinta Luar Biasa</a></h4> 
-                  <p>Andmesh Kamaleng</p>
-                </div>
-              </div>
-              <div className="sub">
-                <img className="img" src={Foto6} alt="" />
-                <div className="putar">
-                  <h4><a href="">Born Pink</a></h4> 
-                  <p>Blackpink</p>
-                </div>
-              </div>
-              <div className="sub">
-                <img className="img" src={Foto7} alt="" />
-                <div className="putar">
-                  <h4><a href="">Manusia</a></h4> 
-                  <p>Tulus</p>
-                </div>
-              </div>
-              <div className="sub">
-                <img className="img" src={Foto8} alt="" />
-                <div className="putar">
-                  <h4><a href="">Life Is but a Dream...</a></h4> 
-                  <p>Avenged Sevenfold</p>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
-          // test 
+export default Daily;

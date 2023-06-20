@@ -47,14 +47,12 @@
     height: 60px;
     width: 60px;
     
-    border: none;
+    /* border: none; */
     background-color: #b0b0cd;
     
 }
 
-.day-btn :hover {
-    background-color: aquamarine;
-}
+
 .fi-btn{
     /* color: #181e56; */
     color: #0d0d0d;
@@ -110,6 +108,9 @@
     background-color: transparent;
     border: none;
     color: #ffffff;
+}
+.tr-daily:hover{
+    background-color: rgba(37, 38, 43, 0.18);
 }
 
 

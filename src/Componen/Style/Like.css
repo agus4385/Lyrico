@@ -20,8 +20,8 @@
 
 .like-home .like-judul-album .like-album {
     display: flex;
-    border: 0px solid #4a4a54;
-    border: 1px solid #fff;
+    /* border: 0px solid #4a4a54; */
+    /* border: 1px solid #fff; */
 }
 
 .like-home .like-judul-album .album-img {
