@@ -84,7 +84,7 @@ function Daily() {
                 <td>3:42</td>
               </tr>
               <tr className="tr-daily">
-                <td className="td-daily">
+                {/* <td className="td-daily">
                   <p>1</p>
                   <img className="day-img" src={Foto2} alt="" />
                   <button className="play-btn"><FiPlay size={20} className="fiplay" /></button> 
@@ -96,7 +96,7 @@ function Daily() {
                 <td>
                   <FiHeart />
                 </td>
-                <td>3:42</td>
+                <td>3:42</td> */}
               </tr>
               <tr className="tr-daily">
                 <td className="td-daily">
