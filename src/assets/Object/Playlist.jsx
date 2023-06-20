@@ -56,7 +56,7 @@ function Daily() {
               </tr>
               <tr className="tr-daily">
                 <td className="td-daily">
-                  <p>1</p>
+                  <p>2</p>
                   <img className="day-img" src={Foto2} alt="" />
                   <button className="play-btn"><FiPlay size={20} className="fiplay" /></button> 
                 </td>
@@ -71,7 +71,7 @@ function Daily() {
               </tr>
               <tr className="tr-daily">
                 <td className="td-daily">
-                  <p>1</p>
+                  <p>3</p>
                   <img className="day-img" src={Foto2} alt="" />
                   <button className="play-btn"><FiPlay size={20} className="fiplay" /></button> 
                 </td>
@@ -86,7 +86,7 @@ function Daily() {
               </tr>
               <tr className="tr-daily">
                 <td className="td-daily">
-                  <p>1</p>
+                  <p>4</p>
                   <img className="day-img" src={Foto2} alt="" />
                   <button className="play-btn"><FiPlay size={20} className="fiplay" /></button> 
                 </td>
@@ -101,7 +101,7 @@ function Daily() {
               </tr>
               <tr className="tr-daily">
                 <td className="td-daily">
-                  <p>1</p>
+                  <p>5</p>
                   <img className="day-img" src={Foto2} alt="" />
                   <button className="play-btn"><FiPlay size={20} className="fiplay" /></button> 
                 </td>
